@@ -95,6 +95,7 @@ func Provider() *schema.Provider {
 			"junos-ipsec_SecurityIpsecProposalAuthentication__Algorithm": junosSecurityIpsecProposalAuthentication__Algorithm(),
 			"junos-ipsec_SecurityIpsecProposalEncryption__Algorithm": junosSecurityIpsecProposalEncryption__Algorithm(),
 			"junos-ipsec_SecurityIpsecPolicyName": junosSecurityIpsecPolicyName(),
+			"junos-ipsec_SecurityIpsecPolicyProposals": junosSecurityIpsecPolicyProposals(),
 			"junos-ipsec_SecurityIpsecVpnName": junosSecurityIpsecVpnName(),
 			"junos-ipsec_SecurityIpsecVpnIkeGateway": junosSecurityIpsecVpnIkeGateway(),
 			"junos-ipsec_SecurityIpsecVpnIkeIpsec__Policy": junosSecurityIpsecVpnIkeIpsec__Policy(),
